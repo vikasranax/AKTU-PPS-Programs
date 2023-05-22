@@ -23,7 +23,7 @@ int main()
             break;
         }
     }
-    if(flag=0)
+    if(flag==0)
        cout<<a<<" is not Prime Number"<<endl;
        
     else
