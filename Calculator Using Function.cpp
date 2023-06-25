@@ -26,13 +26,13 @@ int Divide(long a , long b){
 int main(){
     long result , a , b;
     char op;
-    cout<<"Emter First number :";
+    cout<<"Enter First number :";
     cin>>a;
-    cout<<"Enter Second Number :";
-    cin>>b;
-
     cout<<"Enter Operator ('+' , '-' , '*' , '/') : ";
     cin>>op;
+    cout<<"Enter Second Number :";
+    cin>>b;
+    
     switch(op){
 
     case '+':
@@ -55,7 +55,7 @@ int main(){
         cout<<"INVALID INPUT" ;               
     }
 
-    cout<<result;
+    cout<<a<<op<<b<<"="<<result;
 
     return 0;
 }
